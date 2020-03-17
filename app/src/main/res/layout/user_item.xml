@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/UserCardViewStyle"
+    android:elevation="@dimen/dimension_8">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/company_name"
+            style="@style/CompanyNameTextViewStyle"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:text="Aaru Job"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/company_name"
+            tools:layout_editor_absoluteX="0dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000000" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/user_icon" />
+
+                <TextView
+                    android:id="@+id/user_name"
+                    style="@style/UserNameTextViewStyle"
+                    android:text="Serigne Bassirou Diaby"></TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/user_email"
+                style="@style/EmailTextViewStyle"
+                android:text="bayevels@gmail.com"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimension_4"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/CardIconStyle"
+                    android:src="@drawable/gps_tracker" />
+
+                <TextView
+                    android:id="@+id/user_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hoeger Hill, Apt. 692, South Elvis" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/CardIconStyle"
+                    android:src="@drawable/phone" />
+
+                <TextView
+                    android:id="@+id/user_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="493-170-9623 x156" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    style="@style/CardIconStyle"
+                    android:src="@drawable/laptop" />
+
+                <TextView
+                    android:id="@+id/user_website"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="kale.biz" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

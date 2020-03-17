@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic dimensions -->
+    <dimen name="dimension_0">0dp</dimen>
+    <dimen name="dimension_2">2dp</dimen>
+    <dimen name="dimension_4">4dp</dimen>
+    <dimen name="dimension_8">8dp</dimen>
+    <dimen name="dimension_12">12dp</dimen>
+    <dimen name="dimension_16">16dp</dimen>
+    <dimen name="dimension_20">20dp</dimen>
+    <dimen name="dimension_24">24dp</dimen>
+    <dimen name="dimension_32">32dp</dimen>
+    <dimen name="dimension_46">46dp</dimen>
+    <dimen name="dimension_56">56dp</dimen>
+    <dimen name="dimension_72">72dp</dimen>
+    <dimen name="dimension_100">100dp</dimen>
+
+
+    <dimen name="card_height">180dp</dimen>
+</resources>
